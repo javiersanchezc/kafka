@@ -1,7 +1,7 @@
 # kafka
 repos de kafka
-
-
+ruta de kafka 
+https://drive.google.com/file/d/1KFMtGsOaU_sJwBFiScRZn-lmo9A8bgbl/view?usp=drive_link
 
 extract the zip file
 copy the properties files and place it in config folder in kafka extract
