@@ -1,13 +1,13 @@
 # kafka
 repos de kafka
 
-[martes 10:07 a. m.] Siva Sreenivasa Rao D
+
 
 extract the zip file
 copy the properties files and place it in config folder in kafka extract
 change the location in bat files as per your extracted kafka location
 
-[martes 10:09 a. m.] Siva Sreenivasa Rao D
+
 
 Make sure you are inside the bin/windows directory.
 
@@ -120,7 +120,7 @@ Viewing the Commit Log
 
 kafka-run-class.bat kafka.tools.DumpLogSegments --deep-iteration --files /tmp/kafka-logs/test-topic-0/00000000000000000000.log
 
-[martes 10:23 a. m.] Siva Sreenivasa Rao D
+
 
 Setting Up Multiple Kafka Brokers
 
