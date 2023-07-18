@@ -1,0 +1,26 @@
+Setting Up Multiple Kafka Brokers
+The first step is to add a new server.properties.
+
+ 
+
+We need to modify three properties to start up a multi broker set up.
+
+ 
+
+broker.id=<unique-broker-d>
+listeners=PLAINTEXT://localhost:<unique-port>
+log.dirs=/tmp/<unique-kafka-folder>
+
+ 
+
+Example config will be like below.
+broker.id=1
+listeners=PLAINTEXT://localhost:9093
+log.dirs=/tmp/kafka-logs-1
+
+ 
+
+Starting up the new Broker
+Provide the new server.properties thats added.
+kafka-server-start.bat ..\..\config\server-1.properties
+kafka-server-start.bat ..\..\config\server-2.properties
